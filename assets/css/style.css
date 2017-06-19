@@ -293,6 +293,11 @@ a:hover {
 		margin: 15% 2% 2% 2%;	
 	}
 
+	#left-portfolio h3 {
+		position: relative;
+		top: 100px;
+	}
+
 	#image-1, #image-2, #image-3, #image-4, #image-5 {
 		height: 150px;
 		width: 200px;	
@@ -316,19 +321,24 @@ a:hover {
 		text-align: left;
 	}
 
+	#left-contact {
+		width: 70%;
+	}
+
 	#right-home {
 		top: 0;
 		top: 80px;
 		width: 80%;
 	}
 
-	#left-portfolio h3 {
-		position: relative;
-		top: 100px;
-	}
-
 	.right br {
 		display: none;
+	}
+
+	#right-contact {
+		width: 70%;
+		top: 500px;
+		left: 68px;
 	}
 }
 
