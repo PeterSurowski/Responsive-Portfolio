@@ -18,8 +18,7 @@ header {
 body {
 	color: #777777;
 	background-image: url("../images/ep_naturalwhite.png");
-	margin: 0 0 100px;
-	min-height: 1000px;
+	margin: 0 0 100px;	
 }
 
 .clearfix {
@@ -99,13 +98,15 @@ li {
 
 #right {
 	background: #ffffff;
-	padding: 20px;
+	padding: 20px 20px 20px 20px;
 	width: 20%;
 	position: absolute;
 	top: 100px;
 	left: 60%;
 	margin: 20px 20px 20px 20px;
 	border: solid #dddddd 1px;
+	min-width: 170px;
+	text-align: center;
 }
 
 #right h2 {
@@ -125,6 +126,7 @@ li {
 	height: 40px;
 	width: 40px;
 	border-radius: 25px;
+	text-align: center;
 }
 
 #right .fa:hover {
@@ -186,8 +188,6 @@ a:hover {
 	font-family: Georgia;
 }
 
-/* PROBLEM: Despite that the code is identical for #images 1-5, for some reason the teal banner on #image-5 looks like it has more bottom padding. */
-
 #image-1, #image-2, #image-3, #image-4, #image-5 {
 	height: 100px;
 	width: 125px;
@@ -225,6 +225,16 @@ a:hover {
 	padding: 5px;
 }
 
+#image-5 h3 {
+	font-size: 15px
+	height: 8px;
+	padding-bottom: 0px;
+}
+
+#image-1:hover, #image-2:hover, #image-3:hover, #image-4:hover, #image-5:hover {
+	filter: grayscale(50%);
+}
+
 /* The following lines style the contact page. */
 
 #left-contact h1 {
@@ -259,8 +269,61 @@ a:hover {
 
 @media screen and (max-width: 768px) {
 
+	body {
+		min-height: 1000px;
+	}
+
+	#left-home {
+		padding: 20px;
+		margin: 2% 2% 2% 2%;
+		position: relative;
+		left: 5%;
+		right: 2%;
+		width: 80%;	
+	}
+
+	#left-portfolio {		
+		padding: 20px;
+		position: absolute;
+		left: 5%;
+		right: 2%;
+		top: 0;
+		width: 75%;
+		height: 52%;
+		margin: 15% 2% 2% 2%;	
+	}
+
+	#image-1, #image-2, #image-3, #image-4, #image-5 {
+		height: 150px;
+		width: 200px;	
+	}
+
+	#image-1 {
+		float: left;
+	}
+
+	#image-3 {
+		float: left;
+	}		
+
+	#right {
+		padding: 20px;
+		width: 75%;
+		position:relative;
+		top: 670px;
+		left: 5%;	
+		margin: 2% 2% 2% 2%;
+		text-align: left;
+	}
+
+	#right br {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 640px) {
-	
+
+	body {
+		background: #111111;
+	}
 }
