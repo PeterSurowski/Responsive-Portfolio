@@ -348,11 +348,6 @@ a:hover {
 		position: static;
 	}
 
-	body {
-		background: #111111;
-		min-height: 1100px;
-	}
-
 	#surowski {
 		float: none;
 		width: 100%;
@@ -442,8 +437,8 @@ a:hover {
 
 	#right-contact {
 		position: absolute;
-		top: 50%;
-		left: 7%;
+		top: 53%;
+		left: 5%;
 		right: 7%
 	}
 }
