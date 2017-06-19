@@ -426,4 +426,24 @@ a:hover {
 		top: 77%;
 		left: 3%;
 	}
+
+	#body-contact {
+		height: 500px;
+	}
+
+	#left-contact {
+		top: 12%;
+		left: 2%;
+	}
+
+	#left-contact textarea {
+		max-width: 95%;
+	}
+
+	#right-contact {
+		position: absolute;
+		top: 50%;
+		left: 7%;
+		right: 7%
+	}
 }
