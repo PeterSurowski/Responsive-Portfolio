@@ -316,6 +316,11 @@ a:hover {
 		text-align: left;
 	}
 
+	#left-portfolio h3 {
+		position: relative;
+		top: 100px;
+	}
+
 	#right br {
 		display: none;
 	}
