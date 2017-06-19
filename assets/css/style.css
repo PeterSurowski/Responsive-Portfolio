@@ -96,7 +96,7 @@ li {
 	margin-bottom: 10px;
 }
 
-#right {
+.right {
 	background: #ffffff;
 	padding: 20px 20px 20px 20px;
 	width: 20%;
@@ -109,7 +109,7 @@ li {
 	text-align: center;
 }
 
-#right h2 {
+.right h2 {
 	font-size: 18px;
 	font-weight: bold;
 	color: #4aaaa5;
@@ -117,7 +117,7 @@ li {
 	margin-bottom: 15px;
 }
 
-#right .fa {
+.right .fa {
 	color: black;
 	background: white;
 	font-size: 40px;
@@ -129,11 +129,11 @@ li {
 	text-align: center;
 }
 
-#right .fa:hover {
+.right .fa:hover {
 	background: #4aaaa5;
 }
 
-#right p {
+.right p {
 	text-align: center;
 }
 
@@ -306,7 +306,7 @@ a:hover {
 		float: left;
 	}		
 
-	#right {
+	.right {
 		padding: 20px;
 		width: 75%;
 		position:relative;
@@ -316,12 +316,18 @@ a:hover {
 		text-align: left;
 	}
 
+	#right-home {
+		top: 0;
+		top: 80px;
+		width: 80%;
+	}
+
 	#left-portfolio h3 {
 		position: relative;
 		top: 100px;
 	}
 
-	#right br {
+	.right br {
 		display: none;
 	}
 }
